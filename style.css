@@ -1,0 +1,44 @@
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    min-height: 100vh;
+    font-size: 1rem;
+    place-items: center;
+    line-height: 1.6;
+    font-family: 'Outfit';
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem 0 0;
+    max-width: 35ch;
+    border-radius: 15px 15px 15px 15px;;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10%;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-body {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%); 
+}
